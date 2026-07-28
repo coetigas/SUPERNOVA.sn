@@ -18,6 +18,7 @@ export default async function handler(req, res) {
 
   try {
     const body = req.body;
+    console.log("BODY RECEBIDO:", JSON.stringify(body));
     const {
       token,
       issuer_id,
